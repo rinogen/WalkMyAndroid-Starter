@@ -113,6 +113,6 @@ public class MainActivity extends AppCompatActivity implements FetchAddresstask.
 
     @Override
     public void onTaskCompleted(String result) {
-        mLocationButton.setText(result);
+        mLocationText.setText(result);
     }
 }
